@@ -55,7 +55,7 @@ strong {
     transform: skew(0);
   }
   to {
-    transform: skew(30deg, 20deg);
+    transform: skew(-30deg, 40deg);
   }
 }
 
