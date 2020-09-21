@@ -27,28 +27,18 @@ strong {
   }
 }
 
-.rotate45 {
-  transform: rotateZ(45deg);
+.rotation {
+  animation-duration: 10s;
+  animation-name: rotate;
 }
 
-.rotate135 {
-  transform: rotateZ(135deg);
-}
-
-.rotate225 {
-  transform: rotateZ(45deg);
-}
-
-.rotate60 {
-  transform: rotateZ(60deg);
-}
-
-.rotate120 {
-  transform: rotateZ(120deg);
-}
-
-.rotate180 {
-  transform: rotateZ(270deg);
+@keyframes rotate {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(90deg);
+  }
 }
 
 .flex {
