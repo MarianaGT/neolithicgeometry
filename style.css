@@ -1,6 +1,30 @@
 body {
   margin: 0 auto;
   max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+.translation {
+  animation-duration: 10s;
+  animation-name: translate;
+}
+
+@keyframes translate {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
 }
 
 .rotate45 {
