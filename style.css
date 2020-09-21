@@ -2,3 +2,31 @@ body {
   margin: 0 auto;
   max-width: 50em;
 }
+
+.rotate45 {
+  transform: rotateZ(45deg);
+}
+
+.rotate135 {
+  transform: rotateZ(135deg);
+}
+
+.rotate225 {
+  transform: rotateZ(45deg);
+}
+
+.rotate60 {
+  transform: rotateZ(60deg);
+}
+
+.rotate120 {
+  transform: rotateZ(120deg);
+}
+
+.rotate180 {
+  transform: rotateZ(270deg);
+}
+
+.flex {
+  display: flex;
+}
