@@ -16,6 +16,8 @@ strong {
 .translation {
   animation-duration: 10s;
   animation-name: translate;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes translate {
@@ -23,13 +25,14 @@ strong {
     transform: translateX(0);
   }
   to {
-    transform: translateX(100px);
+    transform: translateX(300px);
   }
 }
 
 .rotation {
   animation-duration: 10s;
   animation-name: rotate;
+  animation-iteration-count: infinite;
 }
 
 @keyframes rotate {
@@ -37,21 +40,25 @@ strong {
     transform: rotateZ(0);
   }
   to {
-    transform: rotateZ(90deg);
+    transform: rotateZ(360deg);
+  }
+}
+
+.skew {
+  animation-duration: 10s;
+  animation-name: skew;
+  animation-iteration-count: infinite;
+}
+
+@keyframes skew {
+  from {
+    transform: skew(0);
+  }
+  to {
+    transform: skew(30deg, 20deg);
   }
 }
 
 .flex {
   display: flex;
-}
-
-span {
-  width: 50px;
-  height: 50px;
-  background-color: teal;
-}
-
-.transformed{
-  transform: rotateX(60deg);
-  background-color: blue;
 }
