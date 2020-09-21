@@ -59,6 +59,21 @@ strong {
   }
 }
 
+.scale {
+  animation-duration: 10s;
+  animation-name: scale;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
 .flex {
   display: flex;
 }
