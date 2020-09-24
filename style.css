@@ -91,3 +91,11 @@ strong {
   }
 }
 
+/*Responsiveness*/
+
+@media screen and (max-width: 799px) {
+  body {
+    padding: 5rem 3rem;
+    width: 100%;
+  }
+}
