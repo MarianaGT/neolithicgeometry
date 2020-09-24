@@ -12,27 +12,15 @@ body {
   min-width: 300px;
 }
 
+.flex {
+  display: flex;
+}
+
 h1,
 h2,
 strong {
   color: #333;
   font-size: 20px;
-}
-
-.translation {
-  animation-duration: 10s;
-  animation-name: translate;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-
-@keyframes translate {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(300px);
-  }
 }
 
 .rotation {
@@ -80,6 +68,19 @@ strong {
   }
 }
 
-.flex {
-  display: flex;
+.translation {
+  animation-duration: 10s;
+  animation-name: translate;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
+@keyframes translate {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(300px);
+  }
+}
+
