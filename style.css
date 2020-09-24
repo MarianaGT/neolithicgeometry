@@ -35,6 +35,13 @@ strong {
   text-transform: uppercase;
 }
 
+h4 {
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .rotation {
   animation-duration: 10s;
   animation-name: rotate;
