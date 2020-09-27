@@ -42,6 +42,17 @@ h4 {
   font-weight: bold;
 }
 
+hr {
+  background-color: #ff470f;
+  border: none;
+  content: "";
+  height: 1px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  transform-origin: center left;
+  width: 4rem;
+}
+
 .rotation {
   animation-duration: 10s;
   animation-name: rotate;
