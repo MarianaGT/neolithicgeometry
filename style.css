@@ -35,7 +35,7 @@ strong {
   text-transform: uppercase;
 }
 
-h4 {
+h4, .caption {
   font-size: 0.75rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
