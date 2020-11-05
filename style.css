@@ -123,8 +123,28 @@ hr {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) (orientation: landscape) {
   body {
   padding: 4rem;
+  background-color: red;
   }
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+  background-color: red;
+  }
+}
+
+.row {
+  box-sizing: border-box;
+}
+
+.col-25 {
+  width: 25%;
+  float: left;
+}
+
+.col-75 {
+  width: 75%;
 }
