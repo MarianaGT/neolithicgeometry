@@ -1,0 +1,93 @@
+h1  {
+  font-weight: bold;
+  line-height: 2em;
+}
+
+span {
+  color: gray;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.box-padding {
+  padding: 30px;
+}
+
+.navbar {
+  width: 25%;
+  border-right: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 75%;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+
+.content-section-left {
+  width: 25%;
+  background-color: yellow;
+}
+
+.content-section-right {
+  width: 75%;
+  border-left: 1px solid gray;
+}
+
+.half-box-height {
+  height: 300px;
+  border-bottom: 1px solid gray;
+}
+
+.half-box-width {
+  width: 50%;
+}
+
+.flex-horizontal {
+  display: flex;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+#sale-distribution {
+  margin: 50% 0 50% 0;
+}
+
+.shopping-item {
+  width: 50%;
+  height: 100px;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+.padding-top {
+  padding-top: 30px;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.position-bottom {
+  align-self: end;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.background-black {
+  background-color: black;
+}
+
+.background-gray {
+  background-color: #d3d3d3;
+}
